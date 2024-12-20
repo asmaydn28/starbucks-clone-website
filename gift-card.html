@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="gift.css">
+  </head>
+  <body>
+    
+<!-- navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg py-3 px-3 shadow">
+        <div class="container-fluid images">
+            <a style="width: 50px;" class="navbar-brand" href="index.html"><img src="starbucks-coffee-seeklogo.png" alt="starlogo" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav flex-grow-1 pe-3">
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="menü.html">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="rewards.html">REWARDS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" href="gift-card.html">GIFT CARDS</a>
+                  </li>
+                  </ul>
+                  <ul class="navbar-nav ms-auto">
+                      <hr>
+                      <li class="nav-item me-4">
+                          <a class="nav-link" href="#">
+                              <i class="fa-solid fa-location-dot fs-5" style="color: #000000;"></i>
+                              Find a Store
+                          </a>
+                      </li>
+                      <li class="nav-item me-3">
+                          <button type="button" class="btn btn-outline-dark rounded-5 mt-3 mt-lg-0 px-4">Sign in</button>
+                      </li>
+                      <li class="nav-item me-2">
+                          <button type="button" class="btn btn-dark rounded-5 mt-3 mt-lg-0 px-3">Join now</button>
+                      </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </nav> 
+</header>
+
+<section>
+    <div class="container my-5 mb-1">
+        <!-- Başlık -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <h2 class="fw-bold">Gift Cards</h2>
+                <p class="text-muted">FEATURED</p>
+            </div>
+            <a href="#" class="text-success fw-bold">See all</a>
+        </div>
+
+        <!-- Gift Card Slider -->
+        <div class="gift-card-container">
+            <!-- Sol Ok -->
+            <button class="carousel-control carousel-control-prev" id="prevBtn">&#10094;</button>
+
+            <!-- Kartlar -->
+            <div class="gift-card-wrapper" id="giftCardWrapper">
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 1">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 2">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 3">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 4">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 5">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 6">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 7">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 8">
+                </div>
+            </div>
+
+            <!-- Sağ Ok -->
+            <button class="carousel-control carousel-control-next" id="nextBtn">&#10095;</button>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container bg-light rounded-2 py-4">
+        <div class="d-flex align-items-center p-2">
+            <img style="height: 50px;" src="cards.png" alt="cards" class="img-fluid">
+            <p class="fw-normal">Effortlessly send up to 10 eGifts per purchase. Select a design to start!</p>
+        </div>
+    </div>
+</section>
+
+<section class="bg-success mt-3">
+    <div class="container">
+        <div class="d-md-flex align-items-center py-5">
+            <h4 class="me-3">Received a gift card?</h4>
+            <p class="text-muted me-3">Earns 2★Stars per $1</p>
+            <button type="button" class="btn btn-outline-dark rounded-5 me-3">Add or Reload</button>
+            <button type="button" class="btn btn-dark rounded-5">Check Balance</button>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container my-5 mb-1">
+        <!-- Başlık -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <p class="fw-bold">Christmas</p>
+            </div>
+            <a href="#" class="text-success fw-bold">See all</a>
+        </div>
+
+        <!-- Gift Card Slider -->
+        <div class="gift-card-container">
+
+            <!-- Kartlar -->
+            <div class="gift-card-wrapper" id="giftCardWrapper">
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 1">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 2">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 3">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 4">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 5">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 6">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 7">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 8">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container my-5 mb-1">
+        <!-- Başlık -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <p class="fw-bold">Holıday</p>
+            </div>
+            <a href="#" class="text-success fw-bold">See all</a>
+        </div>
+
+        <!-- Gift Card Slider -->
+        <div class="gift-card-container">
+
+            <!-- Kartlar -->
+            <div class="gift-card-wrapper" id="giftCardWrapper">
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 1">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 2">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 3">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 4">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 5">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 6">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 7">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 8">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container my-5 mb-1">
+        <!-- Başlık -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <p class="fw-bold">Red Cup</p>
+            </div>
+            <a href="#" class="text-success fw-bold">See all</a>
+        </div>
+
+        <!-- Gift Card Slider -->
+        <div class="gift-card-container">
+
+            <!-- Kartlar -->
+            <div class="gift-card-wrapper" id="giftCardWrapper">
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 1">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 2">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 3">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 4">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 5">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 6">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 7">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 8">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container my-5 mb-1">
+        <!-- Başlık -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <p class="fw-bold">Bırthday</p>
+            </div>
+            <a href="#" class="text-success fw-bold">See all</a>
+        </div>
+
+        <!-- Gift Card Slider -->
+        <div class="gift-card-container">
+
+            <!-- Kartlar -->
+            <div class="gift-card-wrapper" id="giftCardWrapper">
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 1">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 2">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 3">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 4">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 5">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 6">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 7">
+                </div>
+                <div class="gift-card">
+                    <img src="card1.jpg" alt="Card 8">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container py-5">
+        <div class="row d-flex align-items-center g-3">
+            <div class="col-md-4 col-12">
+                <img src="bulk-gift-cards.jpg" alt="bulk" class="img-fluid">
+            </div>
+            <div class="col-md-4 col-12">
+                <div>
+                    <h5>Business gifting — simplified</h5>
+                    <p class="text-muted">Bulk send physical or digital Starbucks Cards to gift, reward, incentivize, or show appreciation towards your customers, clients and team members. Minimum 15 cards per order.</p>
+                    <button type="button" class="btn btn-outline-dark">Shop now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12 py-5">
+                <div>
+                    <h5>About eGift cards</h5>
+                    <p>A Starbucks eGift card (also known as an “eGift”) is a Starbucks Gift Card that is purchased and sent digitally.</p>
+                    <p>For Senders of an eGift, go to eGift History when signed in to view, send, or resend eGifts you’ve purchased — or, to directly contact Starbucks eGift Support for help with your order.</p>
+
+                    <h5>Questions around eGift cards?</h5>
+                    <p>Check our Frequently Asked Questions — your question might already be answered. There, you’ll find answers for all Starbucks Gift Cards in general (including eGifts).</p>
+                    <button type="button" class="btn btn-outline-dark rounded-5">Cards FAQS</button>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 py-5">
+                <div>
+                    <h5>About Starbucks Gift Cards in general</h5>
+                    <p>Starbucks Gift Cards, including eGifts, can be used to pay in a Starbucks store or to join Starbucks® Rewards.</p>
+                    <p>Register Gift Cards and eGifts to a Starbucks® Rewards account and earn 2★ per dollar every time you pay with that card. Those Stars quickly add up to free food, drinks, and more!</p>
+                    <button type="button" class="btn btn-outline-dark rounded-5">Cards Terms Conditions</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- footer kısmı -->
+<footer class="p-3">
+    <div class="container-fluid d-lg-block d-none">
+        <div class="row">
+            <div class="col-lg-2">
+                <div>
+                    <h5>About Us</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Our Company</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Coffee</a>
+                        </li>
+                        <li>
+                            <a href="#">Aboy Starbucks</a>
+                        </li>
+                        <li>
+                            <a href="#">Starbucks Archive</a>
+                        </li>
+                        <li>
+                            <a href="#">Investor Relations</a>
+                        </li>
+                        <li>
+                            <a href="#">Customer Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5>Careers</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Culture and Values</a>
+                        </li>
+                        <li>
+                            <a href="#">Inclusion, Diversity, & Belonging</a>
+                        </li>
+                        <li>
+                            <a href="#">College Achievement Plan</a>
+                        </li>
+                        <li>
+                            <a href="#">Alumni Community</a>
+                        </li>
+                        <li>
+                            <a href="#">U.S. Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">International Careers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5>Social Impact</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Communities</a>
+                        </li>
+                        <li>
+                            <a href="#">Starbucks Foundation</a>
+                        </li>
+                        <li>
+                            <a href="#">Sustainability</a>
+                        </li>
+                        <li>
+                            <a href="#">Environmental and Social Impact Reporting</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5>For Business Partners</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Landlord Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Suppliers</a>
+                        </li>
+                        <li>
+                            <a href="#">Corporate Gift Card Sales</a>
+                        </li>
+                        <li>
+                            <a href="#">Office and Foodservice Coffee</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5>Order and Pick Up</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Order on the App</a>
+                        </li>
+                        <li>
+                            <a href="#">Order on the Web</a>
+                        </li>
+                        <li>
+                            <a href="#">Delivery</a>
+                        </li>
+                        <li>
+                            <a href="#">Order and Pick Up Options</a>
+                        </li>
+                        <li>
+                            <a href="#">Explore and Find Coffee for Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid my-5 d-lg-none">
+       
+        <div class="accordion accordion-flush" id="accordionFlushAboutUs">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingAboutUs">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAboutUs" aria-expanded="false" aria-controls="flush-collapseAboutUs">
+                        About Us
+                    </button>
+                </h2>
+                <div id="flush-collapseAboutUs" class="accordion-collapse collapse" aria-labelledby="flush-headingAboutUs" data-bs-parent="#accordionFlushAboutUs">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Our Company</a></li>
+                            <li><a href="#">Our Coffee</a></li>
+                            <li><a href="#">About Starbucks</a></li>
+                            <li><a href="#">Starbucks Archive</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion accordion-flush" id="accordionFlushCareers">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingCareers">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseCareers" aria-expanded="false" aria-controls="flush-collapseCareers">
+                        Careers
+                    </button>
+                </h2>
+                <div id="flush-collapseCareers" class="accordion-collapse collapse" aria-labelledby="flush-headingCareers" data-bs-parent="#accordionFlushCareers">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Culture and Values</a></li>
+                            <li><a href="#">Inclusion, Diversity, & Belonging</a></li>
+                            <li><a href="#">College Achievement Plan</a></li>
+                            <li><a href="#">Alumni Community</a></li>
+                            <li><a href="#">U.S. Careers</a></li>
+                            <li><a href="#">International Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion accordion-flush" id="accordionFlushSocialImpact">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSocialImpact">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSocialImpact" aria-expanded="false" aria-controls="flush-collapseSocialImpact">
+                        Social Impact
+                    </button>
+                </h2>
+                <div id="flush-collapseSocialImpact" class="accordion-collapse collapse" aria-labelledby="flush-headingSocialImpact" data-bs-parent="#accordionFlushSocialImpact">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Communities</a></li>
+                            <li><a href="#">Starbucks Foundation</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Environmental and Social Impact Reporting</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion accordion-flush" id="accordionFlushBusinessPartners">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingBusinessPartners">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseBusinessPartners" aria-expanded="false" aria-controls="flush-collapseBusinessPartners">
+                        For Business Partners
+                    </button>
+                </h2>
+                <div id="flush-collapseBusinessPartners" class="accordion-collapse collapse" aria-labelledby="flush-headingBusinessPartners" data-bs-parent="#accordionFlushBusinessPartners">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Landlord Support Center</a></li>
+                            <li><a href="#">Suppliers</a></li>
+                            <li><a href="#">Corporate Gift Card Sales</a></li>
+                            <li><a href="#">Office and Foodservice Coffee</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion accordion-flush" id="accordionFlushOrderPickUp">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOrderPickUp">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOrderPickUp" aria-expanded="false" aria-controls="flush-collapseOrderPickUp">
+                        Order and Pick Up
+                    </button>
+                </h2>
+                <div id="flush-collapseOrderPickUp" class="accordion-collapse collapse" aria-labelledby="flush-headingOrderPickUp" data-bs-parent="#accordionFlushOrderPickUp">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Order on the App</a></li>
+                            <li><a href="#">Order on the Web</a></li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Order and Pick Up Options</a></li>
+                            <li><a href="#">Explore and Find Coffee for Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+    
+    <hr class="border-2">
+
+    <div class="container-fluid">
+        <div class="py-3">
+            <i class="fa-brands fa-spotify fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-facebook fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-pinterest fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-instagram fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-youtube fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-x-twitter fa-2xl me-3" style="color: #000000;"></i>
+        </div>
+        <div>
+            <ul class="list-unstyled linklerim2">
+                <li><a href="#">Privacy Notice</a></li>
+                <li><a href="#">Consumer Health Privacy Notice</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Do Not Share My Personal Information</a></li>
+                <li><a href="#">CA Supply Chain Act</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+            </ul>
+            <p class="text-muted">© 2024 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const wrapper = document.getElementById('giftCardWrapper');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    let currentPosition = 0;
+    const cardWidth = wrapper.querySelector('.gift-card').offsetWidth; // Tek bir kartın genişliği
+    const visibleCards = 4; // Bir satırda görünen kart sayısı
+    const totalCards = wrapper.children.length; // Toplam kart sayısı
+    const maxPosition = Math.ceil(totalCards / visibleCards) - 1; // Kaç grup var
+
+    prevBtn.addEventListener('click', () => {
+        if (currentPosition > 0) {
+            currentPosition--;
+            wrapper.style.transform = `translateX(-${currentPosition * 100}%)`;
+        }
+    });
+
+    nextBtn.addEventListener('click', () => {
+        if (currentPosition < maxPosition) {
+            currentPosition++;
+            wrapper.style.transform = `translateX(-${currentPosition * 100}%)`;
+        }
+    });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

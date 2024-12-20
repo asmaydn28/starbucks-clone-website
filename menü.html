@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menü</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menü.css">
+</head>
+<body>
+<!-- navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg py-3 shadow">
+        <div class="container-fluid mx-2">
+            <a style="width: 50px;" class="navbar-brand" href="index.html"><img src="starbucks-coffee-seeklogo.png" alt="starlogo" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav flex-grow-1 pe-3">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="menü.html">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="rewards.html">REWARDS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">GIFT CARDS</a>
+                  </li>
+                  </ul>
+                  <ul class="navbar-nav ms-auto">
+                      <hr>
+                      <li class="nav-item me-4">
+                          <a class="nav-link" href="#">
+                              <i class="fa-solid fa-location-dot fs-5" style="color: #000000;"></i>
+                              Find a Store
+                          </a>
+                      </li>
+                      <li class="nav-item me-3">
+                          <button type="button" class="btn btn-outline-dark rounded-5 mt-3 mt-lg-0 px-4">Sign in</button>
+                      </li>
+                      <li class="nav-item me-2">
+                          <button type="button" class="btn btn-dark rounded-5 mt-3 mt-lg-0 px-3">Join now</button>
+                      </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </nav> 
+</header>
+<!-- navbar altındakı 4 link -->
+<section class="bg-light border-bottom">
+    <div class="container-fluid mx-lg-5 px-5 py-2">
+        <div>
+            <ul class="list-unstyled d-flex justify-content-start pt-1">
+                <li><a href="#" class="text-decoration-none text-black me-4 border-bottom border-3 border-black">Menu</a></li>
+                <li><a href="#" class="text-decoration-none text-black me-4">Featured</a></li>
+                <li><a href="#" class="text-decoration-none text-black me-4">Previous</a></li>
+                <li><a href="#" class="text-decoration-none text-black me-4">Favorites</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- menü ve link kısımları -->
+<main>
+    <div class="container-fluid mx-lg-5 px-5">
+        <div class="row">
+            <div class="col-lg-2 d-none d-lg-block">
+                <div class="drink-link mt-5 ">
+                    <h5 class="fw-bold">Drinks</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Hot Coffees</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Cold Coffees</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Starbucks Refreshers® Beverages</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Frappuccino® Blended Beverages</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Iced Tea & Lemonade</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Hot Teas</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Iced Energy</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Milk, Juice & More</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Bottled Beverages</a></li>
+                    </ul>
+                </div>
+
+                <div class="drink-link mt-5 ">
+                    <h5 class="fw-bold">Food</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Hot Breakfast</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Oatmeal & Yogurt</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Bakery</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Lunch</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Snacks & Sweets</a></li>
+                    </ul>
+                </div>
+
+                <div class="drink-link mt-5 ">
+                    <h5 class="fw-bold">At Home Coffee</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Whole Bean</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Ground</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">VIA® Instant</a></li>
+                    </ul>
+                </div>
+
+                <div class="drink-link mt-5 ">
+                    <h5 class="fw-bold">Merchandise</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Cold Cups</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Tumblers</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Mugs</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark text-muted">Other</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 ms-lg-5 pb-3">
+                <div class="mt-5">
+                    <h4 class="fw-bold">Menu</h4>
+                </div>
+                <div class="mt-5">
+                    <h5 class="fw-bold">Drinks</h5>
+                </div>
+                <hr>
+
+                <div class="row">
+                    <div class="col-md-6 col-12 mt-3">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Hot Coffees</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-3">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Cold Coffees</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Starbucks Refreshers® Beverages</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Frappuccino® Blended Beverages</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Starbucks Refreshers® Beverages</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Frappuccino® Blended Beverages</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Iced Tea & Lemonade</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Hot Teas</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Bottled Beverages</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <h5 class="fw-bold py-2">Food</h5>
+                </div>
+                <hr>
+
+                <div class="row">
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="hamburger.jpg" alt="hamburger" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Hot Breakfast</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="hamburger.jpg" alt="hamburger" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Oatmeal & Yogurt</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="hamburger.jpg" alt="hamburger" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Bakery</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="hamburger.jpg" alt="hamburger" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Lunch</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="hamburger.jpg" alt="hamburger" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Snacks & Sweets</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <h5 class="fw-bold py-2">At Home Coffee</h5>
+                </div>
+                <hr>
+
+                <div class="row">
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve2.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Whole Bean</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve2.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Ground</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="kahve2.jpg" alt="kahve" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Vıa Instant</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <h5 class="fw-bold py-2">Merchandise</h5>
+                </div>
+                <hr>
+
+                <div class="row">
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="bardak.jpg" alt="bardak" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Cold Cups</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="bardak.jpg" alt="bardak" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Tumblers</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="bardak.jpg" alt="bardak" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Mugs</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <img src="bardak.jpg" alt="bardak" class="img-fluid w-25 rounded-circle">
+                        <p class="fw-bold ms-3">Other</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</main>
+
+<!-- footer kısmı -->
+<footer class="px-3 my-5 pb-5">
+    <div class="container-fluid mx-5 d-lg-block d-none">
+        <div class="row">
+            <div class="col-lg-2">
+                <div>
+                    <h5>About Us</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Our Company</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Coffee</a>
+                        </li>
+                        <li>
+                            <a href="#">Aboy Starbucks</a>
+                        </li>
+                        <li>
+                            <a href="#">Starbucks Archive</a>
+                        </li>
+                        <li>
+                            <a href="#">Investor Relations</a>
+                        </li>
+                        <li>
+                            <a href="#">Customer Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5>Careers</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Culture and Values</a>
+                        </li>
+                        <li>
+                            <a href="#">Inclusion, Diversity, & Belonging</a>
+                        </li>
+                        <li>
+                            <a href="#">College Achievement Plan</a>
+                        </li>
+                        <li>
+                            <a href="#">Alumni Community</a>
+                        </li>
+                        <li>
+                            <a href="#">U.S. Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">International Careers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5>Social Impact</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Communities</a>
+                        </li>
+                        <li>
+                            <a href="#">Starbucks Foundation</a>
+                        </li>
+                        <li>
+                            <a href="#">Sustainability</a>
+                        </li>
+                        <li>
+                            <a href="#">Environmental and Social Impact Reporting</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5>For Business Partners</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Landlord Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Suppliers</a>
+                        </li>
+                        <li>
+                            <a href="#">Corporate Gift Card Sales</a>
+                        </li>
+                        <li>
+                            <a href="#">Office and Foodservice Coffee</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5>Order and Pick Up</h5>
+                    <ul class="list-unstyled linklerim">
+                        <li>
+                            <a href="#">Order on the App</a>
+                        </li>
+                        <li>
+                            <a href="#">Order on the Web</a>
+                        </li>
+                        <li>
+                            <a href="#">Delivery</a>
+                        </li>
+                        <li>
+                            <a href="#">Order and Pick Up Options</a>
+                        </li>
+                        <li>
+                            <a href="#">Explore and Find Coffee for Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid my-5 d-lg-none">
+       
+        <div class="accordion accordion-flush" id="accordionFlushAboutUs">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingAboutUs">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAboutUs" aria-expanded="false" aria-controls="flush-collapseAboutUs">
+                        About Us
+                    </button>
+                </h2>
+                <div id="flush-collapseAboutUs" class="accordion-collapse collapse" aria-labelledby="flush-headingAboutUs" data-bs-parent="#accordionFlushAboutUs">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Our Company</a></li>
+                            <li><a href="#">Our Coffee</a></li>
+                            <li><a href="#">About Starbucks</a></li>
+                            <li><a href="#">Starbucks Archive</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion accordion-flush" id="accordionFlushCareers">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingCareers">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseCareers" aria-expanded="false" aria-controls="flush-collapseCareers">
+                        Careers
+                    </button>
+                </h2>
+                <div id="flush-collapseCareers" class="accordion-collapse collapse" aria-labelledby="flush-headingCareers" data-bs-parent="#accordionFlushCareers">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Culture and Values</a></li>
+                            <li><a href="#">Inclusion, Diversity, & Belonging</a></li>
+                            <li><a href="#">College Achievement Plan</a></li>
+                            <li><a href="#">Alumni Community</a></li>
+                            <li><a href="#">U.S. Careers</a></li>
+                            <li><a href="#">International Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion accordion-flush" id="accordionFlushSocialImpact">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSocialImpact">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSocialImpact" aria-expanded="false" aria-controls="flush-collapseSocialImpact">
+                        Social Impact
+                    </button>
+                </h2>
+                <div id="flush-collapseSocialImpact" class="accordion-collapse collapse" aria-labelledby="flush-headingSocialImpact" data-bs-parent="#accordionFlushSocialImpact">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Communities</a></li>
+                            <li><a href="#">Starbucks Foundation</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Environmental and Social Impact Reporting</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion accordion-flush" id="accordionFlushBusinessPartners">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingBusinessPartners">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseBusinessPartners" aria-expanded="false" aria-controls="flush-collapseBusinessPartners">
+                        For Business Partners
+                    </button>
+                </h2>
+                <div id="flush-collapseBusinessPartners" class="accordion-collapse collapse" aria-labelledby="flush-headingBusinessPartners" data-bs-parent="#accordionFlushBusinessPartners">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Landlord Support Center</a></li>
+                            <li><a href="#">Suppliers</a></li>
+                            <li><a href="#">Corporate Gift Card Sales</a></li>
+                            <li><a href="#">Office and Foodservice Coffee</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion accordion-flush" id="accordionFlushOrderPickUp">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOrderPickUp">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOrderPickUp" aria-expanded="false" aria-controls="flush-collapseOrderPickUp">
+                        Order and Pick Up
+                    </button>
+                </h2>
+                <div id="flush-collapseOrderPickUp" class="accordion-collapse collapse" aria-labelledby="flush-headingOrderPickUp" data-bs-parent="#accordionFlushOrderPickUp">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled linklerim">
+                            <li><a href="#">Order on the App</a></li>
+                            <li><a href="#">Order on the Web</a></li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Order and Pick Up Options</a></li>
+                            <li><a href="#">Explore and Find Coffee for Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+    
+    <hr class="border-2">
+
+    <div class="container-fluid mx-lg-5">
+        <div class="py-3">
+            <i class="fa-brands fa-spotify fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-facebook fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-pinterest fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-instagram fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-youtube fa-2xl me-3" style="color: #000000;"></i>
+            <i class="fa-brands fa-x-twitter fa-2xl me-3" style="color: #000000;"></i>
+        </div>
+        <div>
+            <ul class="list-unstyled linklerim2">
+                <li><a href="#">Privacy Notice</a></li>
+                <li><a href="#">Consumer Health Privacy Notice</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Do Not Share My Personal Information</a></li>
+                <li><a href="#">CA Supply Chain Act</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+            </ul>
+            <p class="text-muted">© 2024 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- herzaman altta sabit kalan yesıl kısım -->
+<section class="bg-success fixed-bottom">
+    <div class="container">
+        <div class="row justify-content-around py-2">
+            <div class="col-lg-3 col-6">
+                <div>
+                    <p class="text-white">For İtem Availability</p>
+                    <p class="fw-bold text-white border-bottom border-2">Choose a store</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6  d-flex align-items-center justify-content-center">
+                <div>
+                    <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>    
+</body>
+</html>

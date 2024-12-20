@@ -1,0 +1,148 @@
+/* navbardakı lınklerın rengı */
+header nav.navbar ul li a{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+/* navbardakı lınklerın hover olması */
+header nav.navbar ul li a:hover,
+header nav.navbar ul li a:hover i{
+    color: darkgreen !important;
+}
+/* rewards lınkın aktıf olması */
+a.active{
+    border-bottom: 2px solid #1d3932;
+}
+/* sabit sectıon arka plan ve buton*/
+section.bg-success{
+    background-color: #1e3932 !important;
+}
+
+.btn-outline-primary{
+    border-color: white;
+    color: white;
+}
+
+/* ilk header gorunen bolum arka plan */
+section.bg-light1{
+    background-image: url(star.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* numara 1-2-3 daire yapma ve link */
+span.number1,span.number2,span.number3{
+    border: 2px solid #1e3932;
+
+}
+.link1,.link2,.link3{
+    color: #095d41;
+}
+.link1:hover,.link2:hover,.link3:hover{
+    color: #095d41;
+    text-decoration: none;
+}
+
+/* 25-100-200-300-400 alanı */
+/* Sekmeler */
+.tab-link {
+    cursor: pointer; /* İmleci el şeklinde yapar */
+    padding: 10px 20px; /* Sekmeler arası boşluk */
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    display: inline-block;
+  }
+  
+  .tab-link.active {
+    color: #006241; /* Aktif sekme rengi */
+    border-bottom: 3px solid #006241; /* Alt çizgi */
+  }
+  
+  /* İçerik Alanı */
+  .tab-content {
+    background-color: #e6f1eb; /* Hafif yeşil arka plan */
+    width: 100%;
+  }
+  
+  .d-none {
+    display: none; /* İçeriği gizler */
+  }
+  
+ /* learn more lınklerı ve resım genıslık*/
+ a.learn-more{
+    color: #006241;
+ }
+ a.learn-more:hover{
+    color: #006241;
+    text-decoration: none;
+ }
+ img.images{
+    width: 100px;
+ }
+
+ /* sectıon arka plan */
+ section.arka-plan{
+    background-color: #f1f0eb;
+ }
+
+ /* sectıon bg-success arka plan */
+ section.bg-success{
+    background-color: #095d41;
+ }
+ div.success{
+    background-color: #d4e9e2;
+ }
+
+ /* keep the rewards altındakıler */
+a.link-success{
+    color: #095d41;
+}
+a.link-success:hover{
+    color: #095d41;
+    text-decoration: none;
+}
+
+/* over here lınkı  */
+a.over-here{
+    color: #095d41;
+}
+a.over-here:hover{
+    color: #095d41;
+    text-decoration: none;
+}
+
+/* footer linkler linkler */
+ul.linklerim li a{
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+}
+ul.linklerim li a:hover{
+    text-decoration: none;
+    color: black !important;
+    opacity: 100%;
+}
+ul.linklerim li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* accordıon arka plan */
+.accordion-button:focus, 
+.accordion-button:not(.collapsed) {
+    background-color: transparent; /* Arka planı şeffaf yapar */
+    box-shadow: none; /* Varsayılan mavi kenarlığı kaldırır */
+}
+
+div ul.linklerim2 li a{
+    text-decoration: none;
+    color: black;
+}
+div ul.linklerim2 li a:hover{
+    text-decoration: underline;
+}
+div ul.linklerim2 li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

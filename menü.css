@@ -1,0 +1,62 @@
+/* navbardakı lınklerın rengı */
+header nav.navbar ul li a{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+/* navbardakı lınklerın hover olması */
+header nav.navbar ul li a:hover,
+header nav.navbar ul li a:hover i{
+    color: darkgreen !important;
+}
+
+/* drink altındakı lınklerı ayarlama */
+div.drink-link ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* footer linkler linkler */
+ul.linklerim li a{
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+}
+ul.linklerim li a:hover{
+    text-decoration: none;
+    color: black !important;
+    opacity: 100%;
+}
+ul.linklerim li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* accordıon arka plan */
+.accordion-button:focus, 
+.accordion-button:not(.collapsed) {
+    background-color: transparent; /* Arka planı şeffaf yapar */
+    box-shadow: none; /* Varsayılan mavi kenarlığı kaldırır */
+}
+
+div ul.linklerim2 li a{
+    text-decoration: none;
+    color: black;
+}
+div ul.linklerim2 li a:hover{
+    text-decoration: underline;
+}
+div ul.linklerim2 li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* altta kalan sabıt yesıl kısım */
+body section.bg-success{
+    background-color: #1d3932 !important;
+}
+
+/* menu sayfasındayken navbardakı lınk aktıf oluyor altına cızgı belırıyor */
+a.active{
+    border-bottom: 2px solid #1d3932;
+}

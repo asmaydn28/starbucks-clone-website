@@ -1,0 +1,94 @@
+/* navbardakı lınklerın rengı */
+header nav.navbar ul li a{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+/* navbardakı lınklerın hover olması */
+header nav.navbar ul li a:hover,
+header nav.navbar ul li a:hover i{
+    color: darkgreen !important;
+}
+/* btn danger kenarlık */
+button.btn-danger{
+    border: 1px solid white;
+}
+/* card arka plan rengı ayarlama */
+div.bg-danger{
+    background-color: #d40031 !important;
+}
+/* card ıcındekı danger buton ayarlama */
+section div button.btn-danger{
+    background-color: #d40031 !important;
+}
+section div button.btn-danger:hover{
+    background-color: #880221 !important;
+    border: 1px solid white;
+}
+/* 2.card arka plan */
+div.bg-success{
+    background-color: #06ce8d !important;
+}
+/* 3.card arka plan ve butonu */
+div.red-col{
+    background-color: #8e0032 !important;
+}
+section div button.red-buton{
+    background-color: #8e0032 !important;
+}
+/* 4.card arka plan h3ler*/
+div.bg-light{
+    background-color: #f1f0eb !important;
+}
+h3.h3-unwrap{
+    color: #1d5a44;
+}
+/* 5.card arka plan ve buton*/
+div.bg-danger2{
+    background-color: #8e0032 !important;
+}
+section div.row div.col-md-6 button.buton-danger-2{
+    background-color: #8e0032 !important;
+}
+section div.row div.col-md-6 button.buton-danger-2:hover{
+    background-color: #650023 !important;
+}
+/* card6 */
+div.card6-text{
+    color: #1d3932 !important;
+}
+/* footer linkler linkler */
+ul.linklerim li a{
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+}
+ul.linklerim li a:hover{
+    text-decoration: none;
+    color: black !important;
+    opacity: 100%;
+}
+ul.linklerim li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* accordıon arka plan */
+.accordion-button:focus, 
+.accordion-button:not(.collapsed) {
+    background-color: transparent; /* Arka planı şeffaf yapar */
+    box-shadow: none; /* Varsayılan mavi kenarlığı kaldırır */
+}
+
+div ul.linklerim2 li a{
+    text-decoration: none;
+    color: black;
+}
+div ul.linklerim2 li a:hover{
+    text-decoration: underline;
+}
+div ul.linklerim2 li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

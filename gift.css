@@ -1,0 +1,105 @@
+/* navbardakı lınklerın rengı */
+header nav.navbar ul li a{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+/* navbardakı lınklerın hover olması */
+header nav.navbar ul li a:hover,
+header nav.navbar ul li a:hover i{
+    color: darkgreen !important;
+}
+
+/* Özel Stil */
+.gift-card-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.gift-card-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gift-card {
+    flex: 0 0 25%; /* 4 kartı bir satıra sığdırır */
+    padding: 10px;
+}
+
+.gift-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    color: white;
+    border: none;
+    padding: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.bg-light{
+    background-color: #ecebe9 !important;
+}
+
+.bg-success{
+    background-color: #d4e9e2 !important;
+}
+
+main{
+    background-color: #ecebe9 !important;
+}
+
+/* footer linkler linkler */
+ul.linklerim li a{
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+}
+ul.linklerim li a:hover{
+    text-decoration: none;
+    color: black !important;
+    opacity: 100%;
+}
+ul.linklerim li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* accordıon arka plan */
+.accordion-button:focus, 
+.accordion-button:not(.collapsed) {
+    background-color: transparent; /* Arka planı şeffaf yapar */
+    box-shadow: none; /* Varsayılan mavi kenarlığı kaldırır */
+}
+
+div ul.linklerim2 li a{
+    text-decoration: none;
+    color: black;
+}
+div ul.linklerim2 li a:hover{
+    text-decoration: underline;
+}
+div ul.linklerim2 li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a.active{
+    border-bottom: 2px solid #1d3932;
+}
