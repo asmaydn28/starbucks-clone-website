@@ -25,7 +25,7 @@ section.bg-success{
 
 /* ilk header gorunen bolum arka plan */
 section.bg-light1{
-    background-image: url(star.jpg);
+    background-image: url(img/star.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
